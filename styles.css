@@ -1,0 +1,27 @@
+body {
+  padding-top: 70px;
+  font-family: Arial, sans-serif;
+  
+}
+/* HERO */
+.hero {
+  min-height: 100vh;
+  background: linear-gradient(to right, #acd8eb, #21a8d4, #2c5364);
+  color: white(233, 16, 16);
+}
+/* Profile Image */
+.profile-img {
+  width: 220px;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 5px solid white;
+}
+/* Cards */
+.card {
+  transition: 0.3s;
+}
+.card:hover {
+  transform: translateY(-5px);
+}
+
